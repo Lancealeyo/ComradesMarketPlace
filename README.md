@@ -44,7 +44,7 @@ In case of any issues encountered, ideas or making contributions reach out to:
 
 ## LICENSE
 
-This website follows the terms of MIT license.
+This website adheres to terms of MIT license.
 
 Copyright &copy; (2023) ()
 
