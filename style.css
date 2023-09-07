@@ -1,0 +1,78 @@
+/* styles.css */
+
+body {
+    background-color: goldenrod;
+    font-family:  Arial , sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+#reviewForm {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+}
+
+select, textarea, input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+select {
+    background-color:lightcyan;
+}
+
+input[type="submit"] {
+    background-color: brown;
+    color: greenyellow;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #964B00; 
+}
+
+#reviews {
+    margin-top: 20px;
+    background-color:blueviolet;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+ul#reviewList {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#reviewList li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+
+ul#reviewList li:last-child {
+    border-bottom: none;
+}
+
+.rating {
+    color: yellow;
+}

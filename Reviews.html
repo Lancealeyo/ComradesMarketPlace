@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comrade Marketplace Review</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <h1>Leave a Review /Ratings </h1>
+    <form id="reviewForm">
+        <label for="clientName">Your Name:</label>
+        <input type="text" id="clientName" required><br><br>
+
+        <label for="category">Product Category:</label>
+        <select id="category" required>
+            <option value="Furniture">Furniture</option>
+            <option value="Clothing">Clothing</option>
+            <option value="Cookware">Cookware</option>
+            <option value="Beddings">Beddings</option>
+            <option value="Second Hand Items">Second Hand Items</option>
+        </select><br><br>
+
+        <label for="rating">Rating:</label>
+        <select id="rating" required>
+            <option value="5">5 Stars</option>
+            <option value="4">4 Stars</option>
+            <option value="3">3 Stars</option>
+            <option value="2">2 Stars</option>
+            <option value="1">1 Star</option>
+        </select><br><br>
+
+        <label for="review">Your Review:</label><br>
+        <textarea id="review" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit Review">
+    </form>
+
+    <div id="reviews">
+        <h2>Client Reviews</h2>
+        <ul id="reviewList">
+        </ul>
+    </div>
+
+    <script>
+        document.getElementById("reviewForm").addEventListener("submit", function (event) {
+            event.preventDefault();
+            const clientName = document.getElementById("clientName").value;
+            const category = document.getElementById("category").value;
+            const rating = document.getElementById("rating").value;
+            const reviewText = document.getElementById("review").value;
+
+            
+            const reviewList = document.getElementById("reviewList");
+            const listItem = document.createElement("li");
+            listItem.innerHTML = `<strong>${clientName}</strong> reviewed ${category} and gave <span class="rating">${rating} stars</span>: ${reviewText}`;
+            reviewList.appendChild(listItem);
+
+            document.getElementById("clientName").value = "";
+            document.getElementById("category").value = "Furniture";
+            document.getElementById("rating").value = "5";
+            document.getElementById("review").value = "";
+        });
+    </script>
+</body>
+</html>
