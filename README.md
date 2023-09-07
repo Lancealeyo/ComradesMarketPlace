@@ -4,7 +4,7 @@
 
 ## TECHNOLOGIES
 
-The technologies used to create Anita's Kitchen website were:
+The technologies used to create this website were:
 
 1. HTML
 2. CSS
@@ -46,6 +46,6 @@ In case of any issues encountered, ideas or making contributions reach out to:
 
 This website follows the terms of MIT license.
 
-Copyright (c) (2023) ()
+Copyright &copy; (2023) ()
 
 
