@@ -1,13 +1,12 @@
-*{
-    font-family: 'Poppins', sans-serif;
-}
 body{
     display:flex;
     flex-direction: column;
+    background-color: rebeccapurple;
 }
 h1{
     text-transform: capitalize;
     font-size: 30px;
+    
 }
 .block-1{
     width: 100%;
@@ -59,7 +58,7 @@ h1{
     align-items: center;
 }
 .furniture .fun1{
-    background-color: aqua;
+    background-color: rebeccapurple;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -67,31 +66,69 @@ h1{
     padding: 5px;
     justify-content: space-between;
 }
+.furniture h1{
+    color: white;
+    font-size: 40px;
+    
+}
 .fun1 .item{
     width: 23%;
     height: 200px;
-    background-color: rebeccapurple;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 5px;
     border-radius: 5px;
+    align-items: center;
 }
+.fun1 .item:hover{
+    background-color: rgba(33, 247, 5, 0.63);
+}
+.item img{
+    height: 60%;
+    width: 70%;
+    margin-left: 20%;
+}
+.item h2{
+    position: absolute;
+    text-transform: capitalize;
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin-left:-17%;
+}
+.item h3{
+    margin-top: 1%;
+    background-color: white;
+    padding: 3px;
+    border-radius: 3px;
 
+}
+.item h4{
+    position: absolute;
+    margin-left: -18%;
+    margin-top: 1%;
+    background-color: green;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
 .item a{
     width: 30%;
     padding: 5px;
     color: black;
-    background-color: white;
+    background-color: greenyellow;
     align-items: center;
     text-align: center;
     border-radius: 5px;
     text-decoration: none;
-    margin-left: 35%;
     text-transform: capitalize;
 
 }
 .item a:hover{
-    background-color: blueviolet;
+    background-color: rgb(43, 226, 113);
     color: white;
 
 }
@@ -104,8 +141,13 @@ h1{
     position: relative;
     align-items: center;
 }
+.clothings h1{
+    color: white;
+    font-size: 40px;
+    
+}
 .clothings .fun1{
-    background-color: aqua;
+    background-color: rebeccapurple;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -131,8 +173,13 @@ h1{
     position: relative;
     align-items: center;
 }
+.cook h1{
+    color: white;
+    font-size: 40px;
+    
+}
 .cook .fun1{
-    background-color: aqua;
+    background-color: rebeccapurple;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -159,8 +206,13 @@ h1{
     position: relative;
     align-items: center;
 }
+.beddings h1{
+    color: white;
+    font-size: 40px;
+    
+}
 .beddings .fun1{
-    background-color: aqua;
+    background-color: rebeccapurple;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -171,7 +223,7 @@ h1{
 .fun1 .item{
     width: 23%;
     height: 200px;
-    background-color: rebeccapurple;
+    background-color: white;
     display: flex;
     flex-direction: column;
     padding: 5px;
@@ -187,8 +239,13 @@ h1{
     position: relative;
     align-items: center;
 }
+.electronics h1{
+    color: white;
+    font-size: 40px;
+    
+}
 .electronics .fun1{
-    background-color: aqua;
+    background-color: rebeccapurple;
     display: flex;
     flex-direction: row;
     width: 100%;
@@ -196,20 +253,12 @@ h1{
     padding: 5px;
     justify-content: space-between;
 }
-.fun1 .item{
-    width: 23%;
-    height: 200px;
-    background-color: rebeccapurple;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    border-radius: 5px;
-}
+
 footer{
     width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
     color: white;
-    background-color: blue;
+    background-color: rgba(90, 12, 143, 0.767);
 }
