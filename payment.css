@@ -1,218 +1,93 @@
-*{
-    font-family: 'Poppins', sans-serif;
+body {
+    font-family: 'poppins', sans-serif;
+    background-color:lightslategray;
+    margin: 0;
+    padding: 0;
 }
-body{
-    display:flex;
-    flex-direction: column;
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
 }
-h1{
-    text-transform: capitalize;
-    font-size: 30px;
-}
-.block-1{
-    width: 100%;
-    height: 300px;
-    
-    background-image: url('image4.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    position: relative;
-   align-items: center;
-}
+
 .block-1 img{
-    width: 10%;
-    height: 30%;
+    width: 20%;
+    height: 15%;
     position: absolute;
     top: 5%;
     left: 3%;
 
 }
-.block-1 h1{
-    position: absolute;
-    top: 25%;
-    left: 45%;
-    text-transform: capitalize;
-    font-size: 50px;
-}
-.block-1 .line{
-    border: solid black 1px;
-    position: absolute;
-    top: 60%;
-    left: 43%;
-    width: 20%;
-}
-.block-1 p{
-    position: absolute;
-    top: 58%;
-    left: 43%;
-    text-transform: capitalize;
-    font-size: 25px;
-}
-.furniture{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-}
-.furniture .fun1{
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: fit-content;
-    padding: 5px;
-    justify-content: space-between;
-}
-.fun1 .item{
-    width: 23%;
-    height: 200px;
-    background-color: rebeccapurple;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.item a{
-    width: 30%;
-    padding: 5px;
-    color: black;
-    background-color: white;
-    align-items: center;
-    text-align: center;
-    border-radius: 5px;
-    text-decoration: none;
+#paymentCategoryForm input{
     margin-left: 35%;
-    text-transform: capitalize;
-
 }
-.item a:hover{
-    background-color: blueviolet;
+
+#paymentCategoryForm input:hover{
+    cursor: pointer;
+}
+
+div {
+    background-color:grey;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 300px;
+}
+
+h2 {
+    text-align: center;
+}
+input{
+    border-radius: 5px;
+    border-style: none;
+}
+
+input:hover{
+    background-color: rgb(255, 200, 132);
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    height: auto;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #0070ba;
+    color:blue;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+}
+
+@media (min-width: 768px) {
+    div {
+        margin: 20px auto;
+    }
+}
+button a{
+    text-decoration: none;
     color: white;
-
 }
-
-.clothings{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-}
-.clothings .fun1{
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: fit-content;
-    padding: 5px;
-    justify-content: space-between;
-}
-.fun1 .item{
-    width: 23%;
-    height: 200px;
-    background-color: rebeccapurple;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.cook{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-}
-.cook .fun1{
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: fit-content;
-    padding: 5px;
-    justify-content: space-between;
-}
-.fun1 .item{
-    width: 23%;
-    height: 200px;
-    background-color: rebeccapurple;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-
-.beddings{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-}
-.beddings .fun1{
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: fit-content;
-    padding: 5px;
-    justify-content: space-between;
-}
-.fun1 .item{
-    width: 23%;
-    height: 200px;
-    background-color: rebeccapurple;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-
-.electronics{
-    width: 100%;
-    height: fit-content;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    align-items: center;
-}
-.electronics .fun1{
-    background-color: aqua;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: fit-content;
-    padding: 5px;
-    justify-content: space-between;
-}
-.fun1 .item{
-    width: 23%;
-    height: 200px;
-    background-color: rebeccapurple;
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    border-radius: 5px;
-}
-
 footer{
-    width: 100%;
+    width: 98%;
     display: flex;
     align-items: center;
     flex-direction: column;
     color: white;
     background-color: blue;
-    margin-top: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     border-radius: 10px;
 }
