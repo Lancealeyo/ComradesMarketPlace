@@ -82,7 +82,7 @@ This website was built by a scrum team of 4 designers with their github username
 
 ## KNOWN ISSUES
 
-There are no known issues encountered while building.
+Issues encountered was setting the repository.
 
 ## Support and contact details
 
