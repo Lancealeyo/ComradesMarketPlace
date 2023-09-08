@@ -34,7 +34,8 @@ This website was built by []()
 
 ## KNOWN ISSUES
 
-There are no known issues encountered while building.
+There was problem in pushing codes the codes to this repository.
+Regular network failures.
 
 ## Support and contact details
 
