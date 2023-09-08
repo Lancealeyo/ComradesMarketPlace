@@ -14,6 +14,13 @@ body {
     margin-top: 100px;
 }
 
+.block-1 img{
+    width: 20%;
+    height: 30%;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
 .form-group {
     margin-bottom: 20px;
 }
@@ -53,5 +60,15 @@ input[type="submit"]:hover {
 #passwordStrength {
     font-weight: bold;
     margin-top: 5px;
+}
+footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: blue;
+    margin-top: 5px;
+    border-radius: 10px;
 }
 
