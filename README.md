@@ -39,24 +39,6 @@ For this application to run you will need:
 4. Internet(strong)
 
 ## SETUP INSTRUCTIONS
-This section will guide you on how you can set up and run this site on your machine.
-
-1. Clone the repository to your local machine. On your computer open the `Terminal` (*Linux/MacOs*)
-or `GitBash` (**Windows**)
-
-```
-git clone https://github.com/Lancealeyo/ComradeMarketPlace.git
-```
-2. Change into working directory
-```
-cd change to working directory
-```
-
-3. open in vs code
-
-```
-code .
-```
 
 ## DEMO(SCREENSHOTS)
 
@@ -67,7 +49,7 @@ Attached is a working live demo: https://lancealeyo.github.io/ComradesMarketPlac
 | Beddings | Clothing | Electronics |
 |----------|----------|-------------|
 |![Duvet](products/img17.jpg)|![Hood](products/img2.jpg)|![Phone](products/img8.jpg)|
-
+|![Webimage](screenshot.PNG)|
 ## AUTHOR INFO
 
 This website was built by a scrum team of 4 designers with their github username as:
