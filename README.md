@@ -34,7 +34,7 @@ The technologies used to create this website were:
 For this application to run you will need:
 
 1. Install `Github` on **Windows**/ use `Linux`.
-2. 2GB RAM
+2. 4GB RAM
 3. Google Browser (Chrome, Mozzila, FireFox e.t.c
 4. Internet(strong)
 
