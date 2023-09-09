@@ -69,7 +69,7 @@ body{
     background-color: rebeccapurple;
     align-items: center;
     height: 100%;
-    padding: 15px;
+    padding: 5px;
     border-radius: 10px;
 
 }
@@ -87,7 +87,7 @@ body{
     padding: 5px;
     justify-content: space-between;
     background-color: cyan;
-    margin-top: 199px;
+    margin-top: 198px;
 }
 .people1 .img1{
     display: flex;
@@ -96,7 +96,7 @@ body{
     background-color: rebeccapurple;
     align-items: center;
     height: 100%;
-    padding: 15px;
+    padding: 5px;
     border-radius: 10px;
 
 }
