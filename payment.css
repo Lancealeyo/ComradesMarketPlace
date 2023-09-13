@@ -50,3 +50,13 @@ button:hover {
         margin: 20px auto;
     }
 }
+footer{
+    width: 98.5%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    margin: 10px;
+}
