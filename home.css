@@ -112,7 +112,7 @@ video{
   }
   .nav > ul > li > a {
     border-radius: 6px;
-    background-color: aqua;
+    background-color: rgba(90, 12, 143, 0.767);
     padding: 18px;
     margin-right: 0;
     text-transform: capitalize;
@@ -126,7 +126,7 @@ video{
     
   }
   .nav > ul > li > a:hover{
-    background-color: rgb(255, 38, 0);
+    background-color: purple;
   }
 .line{
     width: 30%;
