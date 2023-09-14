@@ -82,7 +82,7 @@ h1{
     align-items: center;
 }
 .fun1 .item:hover{
-    background-color: rgba(33, 247, 5, 0.63);
+    background-color: purple;
 }
 .item img{
     height: 60%;
@@ -128,7 +128,7 @@ h1{
 
 }
 .item a:hover{
-    background-color: rgb(43, 226, 113);
+    background-color: purple;
     color: white;
 
 }
