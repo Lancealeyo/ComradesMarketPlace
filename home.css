@@ -127,6 +127,7 @@ video{
   }
   .nav > ul > li > a:hover{
     background-color: purple;
+    color: white;
   }
 .line{
     width: 30%;
