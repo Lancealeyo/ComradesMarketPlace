@@ -112,7 +112,7 @@ video{
   }
   .nav > ul > li > a {
     border-radius: 6px;
-    background-color: rgba(90, 12, 143, 0.767);
+    background-color: white;
     padding: 18px;
     margin-right: 0;
     text-transform: capitalize;
